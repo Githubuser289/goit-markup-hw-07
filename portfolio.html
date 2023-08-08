@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="container">
+    <header class="page-header ssection">
+      <a class="logo" href=""> <span>Web</span>Studio</a>
+      <nav class="main-navigation">
+        <a href="index.html">Studio</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="">Contacts</a>
+      </nav>
+      <div>
+        <a class="contcts" href="mailto:info@devstudio.com">
+          <svg width="16" height="12">
+            <use href="./images/icons.svg#icon-hdenvelope"></use>
+          </svg>
+          info@devstudio.com</a
+        >
+        <a class="contcts" href="tel:+1212-772-4150">
+          <svg width="10" height="16">
+            <use href="./images/icons.svg#icon-hdsmartphone"></use>
+          </svg>
+          +1 212-772-4150</a
+        >
+      </div>
+
+      <!-- mobile menu -->
+      <button class="mmbutton js-open-menu">
+        <svg width="24px" height="16px">
+          <use href="./images/icons.svg#icon-mobile-menu"></use>
+        </svg>
+      </button>
+    </header>
+    <div class="menu-container js-menu-container">
+      <button class="menu-toggle js-close-menu">
+        <svg width="19px" height="19px">
+          <use href="./images/icons.svg#icon-close_24px"></use>
+        </svg>
+      </button>
+      <div class="mmenu-container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Studio</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+      <a class="a1mobil" href="tel:+1212-772-4150"> +1 212-772-4150</a>
+      <a class="a2mobil" href="mailto:info@devstudio.com">
+        info@devstudio.com</a
+      >
+      <div class="msociallinks">
+        <a href="">Instagram</a>
+        <span>&nbsp;&#10072;&nbsp;</span>
+        <a href="">Twitter</a>
+        <span>&nbsp;&#10072;&nbsp;</span>
+        <a href="">Facebook</a>
+        <span>&nbsp;&#10072;&nbsp;</span>
+        <a href="">LinkedIn</a>
+      </div>
+    </div>
+
+    <hr />
+
+    <main class="ssection">
+      <!--Filter buttons-->
+      <div class="pbuttons">
+        <ul class="buttons">
+          <li><button type="button">All</button></li>
+          <li>
+            <button type="button">Web-sites</button>
+          </li>
+          <li><button type="button">Apps</button></li>
+          <li><button type="button">Design</button></li>
+          <li>
+            <button type="button">Marketing</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Projects -->
+      <section>
+        <div class="prow">
+          <div>
+            <div class="imageandtext">
+              <picture>
+                <source
+                  srcset="images/technoduck.jpg 1x, images/technoduck-2x.jpg 2x"
+                  media="(min-width: 1159px)"
+                />
+                <source
+                  srcset="
+                    images/technoduck-t.jpg    1x,
+                    images/technoduck-t-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    images/technoduck-m.jpg    1x,
+                    images/technoduck-m-2x.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/technoduck.jpg"
+                  alt="group of business cards"
+                />
+              </picture>
+              <div class="pjoverlay">
+                <div class="textoverlay">
+                  Technoduck is a state-of-the-art coronavirus distribution
+                  platform. Companies use this platform for digital espionage
+                  and attacks on competitors' secure servers.
+                </div>
+              </div>
+            </div>
+            <p class="pjname">Technoduck</p>
+            <p class="pjtype">Web-site</p>
+          </div>
+          <div>
+            <div class="imageandtext">
+              <picture>
+                <source
+                  srcset="
+                    images/posterneworleanvsgoldenstar.jpg    1x,
+                    images/posterneworleanvsgoldenstar-2x.jpg 2x
+                  "
+                  media="(min-width: 1159px)"
+                />
+                <source
+                  srcset="
+                    images/posterneworleanvsgoldenstar-t.jpg    1x,
+                    images/posterneworleanvsgoldenstar-t-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    images/posterneworleanvsgoldenstar-m.jpg    1x,
+                    images/posterneworleanvsgoldenstar-m-2x.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/posterneworleanvsgoldenstar.jpg"
+                  alt="basket jump"
+                />
+              </picture>
+              <div class="pjoverlay">
+                <div class="textoverlay">
+                  Design text -- Lorem ipsum dolor sit, amet consectetur
+                  adipisicing elit. Suscipit veritatis assumenda quae natus,
+                  architecto provident voluptate adipisci dolore quas
+                  consequatur?
+                </div>
+              </div>
+            </div>
+            <p class="pjname">Poster New Orlean vs Golden Star</p>
+            <p class="pjtype">Design</p>
+          </div>
+          <div>
+            <div class="imageandtext">
+              <picture>
+                <source
+                  srcset="
+                    images/seafoodrestaurant.jpg    1x,
+                    images/seafoodrestaurant-2x.jpg 2x
+                  "
+                  media="(min-width: 1159px)"
+                />
+                <source
+                  srcset="
+                    images/seafoodrestaurant-t.jpg    1x,
+                    images/seafoodrestaurant-t-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    images/seafoodrestaurant-m.jpg    1x,
+                    images/seafoodrestaurant-m-2x.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/seafoodrestaurant.jpg"
+                  alt="The Seafood Restaurant logo"
+                />
+              </picture>
+              <div class="pjoverlay">
+                <div class="textoverlay">
+                  Seafood text -- Lorem ipsum dolor sit, amet consectetur
+                  adipisicing elit. Suscipit veritatis assumenda quae natus,
+                  architecto provident voluptate
+                </div>
+              </div>
+            </div>
+            <p class="pjname">Seafood Restaurant</p>
+            <p class="pjtype">Apps</p>
+          </div>
+          <div>
+            <div class="imageandtext">
+              <picture>
+                <source
+                  srcset="
+                    images/projectprime.jpg    1x,
+                    images/projectprime-2x.jpg 2x
+                  "
+                  media="(min-width: 1159px)"
+                />
+                <source
+                  srcset="
+                    images/projectprime-t.jpg    1x,
+                    images/projectprime-t-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    images/projectprime-m.jpg    1x,
+                    images/projectprime-m-2x.jpg 2x
+                  "
+                />
+                <img src="./images/projectprime.jpg" alt="headphones" />
+              </picture>
+              <div class="pjoverlay">
+                <div class="textoverlay">
+                  Project Prime text -- Lorem ipsum dolor sit, amet adipisicing
+                  elit. Suscipit veritatis assumenda quae natus, architecto
+                  provident voluptate
+                </div>
+              </div>
+            </div>
+            <p class="pjname">Project Prime</p>
+            <p class="pjtype">Marketing</p>
+          </div>
+          <div>
+            <div class="imageandtext">
+              <picture>
+                <source
+                  srcset="
+                    images/projectboxes.jpg    1x,
+                    images/projectboxes-2x.jpg 2x
+                  "
+                  media="(min-width: 1159px)"
+                />
+                <source
+                  srcset="
+                    images/projectboxes-t.jpg    1x,
+                    images/projectboxes-t-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    images/projectboxes-m.jpg    1x,
+                    images/projectboxes-m-2x.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/projectboxes.jpg"
+                  alt="two cardboard boxes"
+                />
+              </picture>
+              <div class="pjoverlay">
+                <div class="textoverlay">
+                  Project Boxes text -- Lorem ipsum dolor sit, amet adipisicing
+                  elit. Suscipit veritatis assumenda quae natus, architecto
+                  provident voluptate
+                </div>
+              </div>
+            </div>
+            <p class="pjname">Project Boxes</p>
+            <p class="pjtype">Apps</p>
+          </div>
+          <div>
+            <div class="imageandtext">
+              <picture>
+                <source
+                  srcset="
+                    images/inspirationhasnoborders.jpg    1x,
+                    images/inspirationhasnoborders-2x.jpg 2x
+                  "
+                  media="(min-width: 1159px)"
+                />
+                <source
+                  srcset="
+                    images/inspirationhasnoborders-t.jpg    1x,
+                    images/inspirationhasnoborders-t-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    images/inspirationhasnoborders-m.jpg    1x,
+                    images/inspirationhasnoborders-m-2x.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/inspirationhasnoborders.jpg"
+                  alt="computer screen"
+                />
+              </picture>
+              <div class="pjoverlay">
+                <div class="textoverlay">
+                  Inspiration text -- Lorem ipsum dolor sit, amet adipisicing
+                  elit. Suscipit veritatis assumenda quae natus, architecto
+                  provident voluptate
+                </div>
+              </div>
+            </div>
+            <p class="pjname">Inspiration has no Borders</p>
+            <p class="pjtype">Web-site</p>
+          </div>
+          <div>
+            <div class="imageandtext">
+              <picture>
+                <source
+                  srcset="
+                    images/limitededition.jpg    1x,
+                    images/limitededition-2x.jpg 2x
+                  "
+                  media="(min-width: 1159px)"
+                />
+                <source
+                  srcset="
+                    images/limitededition-t.jpg    1x,
+                    images/limitededition-t-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    images/limitededition-m.jpg    1x,
+                    images/limitededition-m-2x.jpg 2x
+                  "
+                />
+                <img src="./images/limitededition.jpg" alt="magazine article" />
+              </picture>
+              <div class="pjoverlay">
+                <div class="textoverlay">
+                  Limited text -- Lorem ipsum dolor sit, amet adipisicing elit.
+                  Suscipit veritatis assumenda quae natus, architecto provident
+                  voluptate
+                </div>
+              </div>
+            </div>
+            <p class="pjname">Limited Edition</p>
+            <p class="pjtype">Design</p>
+          </div>
+          <div>
+            <div class="imageandtext">
+              <picture>
+                <source
+                  srcset="images/projectlab.jpg 1x, images/projectlab-2x.jpg 2x"
+                  media="(min-width: 1159px)"
+                />
+                <source
+                  srcset="
+                    images/projectlab-t.jpg    1x,
+                    images/projectlab-t-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    images/projectlab-m.jpg    1x,
+                    images/projectlab-m-2x.jpg 2x
+                  "
+                />
+                <img src="./images/projectlab.jpg" alt="label with design" />
+              </picture>
+              <div class="pjoverlay">
+                <div class="textoverlay">
+                  Project LAB text -- Lorem ipsum dolor sit, amet adipisicing
+                  elit. Suscipit veritatis assumenda quae natus, architecto
+                  provident voluptate
+                </div>
+              </div>
+            </div>
+            <p class="pjname">Project LAB</p>
+            <p class="pjtype">Marketing</p>
+          </div>
+          <div>
+            <div class="imageandtext">
+              <picture>
+                <source
+                  srcset="
+                    images/growingbusiness.jpg    1x,
+                    images/growingbusiness-2x.jpg 2x
+                  "
+                  media="(min-width: 1159px)"
+                />
+                <source
+                  srcset="
+                    images/growingbusiness-t.jpg    1x,
+                    images/growingbusiness-t-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    images/growingbusiness-m.jpg    1x,
+                    images/growingbusiness-m-2x.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/growingbusiness.jpg"
+                  alt="laptop screen with an app"
+                />
+              </picture>
+              <div class="pjoverlay">
+                <div class="textoverlay">
+                  Growing Business text -- Lorem ipsum dolor sit, amet
+                  adipisicing elit. Suscipit veritatis assumenda quae natus,
+                  architecto provident voluptate
+                </div>
+              </div>
+            </div>
+            <p class="pjname">Growing Business</p>
+            <p class="pjtype">Apps</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="ssection">
+      <div>
+        <div class="left-footer">
+          <a class="logo-footer" href=""> <span>Web</span>Studio</a>
+          <ul>
+            <li>
+              <address>695 Park Ave, NY 10065, USA</address>
+            </li>
+            <li>
+              <a class="contcts" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contcts" href="tel:+1212-772-4150"> +1 212-772-4150</a>
+            </li>
+          </ul>
+        </div>
+        <div class="middle-footer">
+          <p>FIND US ON</p>
+          <nav class="snfooter">
+            <a class="snf-links" href="">
+              <svg width="22px" height="22px">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+            <a class="snf-links" href="">
+              <svg width="22px" height="22px">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+            <a class="snf-links" href="">
+              <svg width="22px" height="22px">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+            <a class="snf-links" href="">
+              <svg width="22px" height="22px">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </nav>
+        </div>
+        <div class="form-footer">
+          <span>SUBSCRIBE TO THE NEWSLETTER</span>
+          <form name="subscribe_form" validate>
+            <input
+              type="email"
+              name="email"
+              class="email-input"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="subscribe-btn">
+              Subscribe
+              <svg width="24px" height="24px">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>DevStudio</title>
+  </head>
+
+  <body class="container">
+    <header class="page-header ssection">
+      <a class="logo" href=""> <span>Web</span>Studio</a>
+      <nav class="main-navigation">
+        <a href="index.html">Studio</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="">Contacts</a>
+      </nav>
+      <div>
+        <a class="contcts" href="mailto:info@devstudio.com">
+          <svg width="16" height="12">
+            <use href="./images/icons.svg#icon-hdenvelope"></use>
+          </svg>
+          info@devstudio.com</a
+        >
+        <a class="contcts" href="tel:+1212-772-4150">
+          <svg width="10" height="16">
+            <use href="./images/icons.svg#icon-hdsmartphone"></use>
+          </svg>
+          +1 212-772-4150</a
+        >
+      </div>
+
+      <!-- mobile menu -->
+      <button class="mmbutton js-open-menu">
+        <svg width="24px" height="16px">
+          <use href="./images/icons.svg#icon-mobile-menu"></use>
+        </svg>
+      </button>
+    </header>
+
+    <div class="menu-container js-menu-container">
+      <button class="menu-toggle js-close-menu">
+        <svg width="19px" height="19px">
+          <use href="./images/icons.svg#icon-close_24px"></use>
+        </svg>
+      </button>
+      <div class="mmenu-container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Studio</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+      <a class="a1mobil" href="tel:+1212-772-4150"> +1 212-772-4150</a>
+      <a class="a2mobil" href="mailto:info@devstudio.com">
+        info@devstudio.com</a
+      >
+      <div class="msociallinks">
+        <a href="">Instagram</a>
+        <span>&nbsp;&#10072;&nbsp;</span>
+        <a href="">Twitter</a>
+        <span>&nbsp;&#10072;&nbsp;</span>
+        <a href="">Facebook</a>
+        <span>&nbsp;&#10072;&nbsp;</span>
+        <a href="">LinkedIn</a>
+      </div>
+    </div>
+
+    <main>
+      <section class="darksection ssection">
+        <div class="dsparent">
+          <picture>
+            <source
+              srcset="
+                images/bgdarksection.jpg    1x,
+                images/bgdarksection-2x.jpg 2x
+              "
+              media="(min-width: 1159px)"
+            />
+            <source
+              srcset="
+                images/bgdarksection-t.jpg    1x,
+                images/bgdarksection-t-2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                images/bgdarksection-m.jpg    1x,
+                images/bgdarksection-m-2x.jpg 2x
+              "
+            />
+            <img src="./images/bgdarksection.jpg" alt="young team working" />
+          </picture>
+          <div class="dschild">
+            <h2 class="dstxt">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h2>
+            <button class="btn-open">Request our service</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="praise-words ssection">
+        <div>
+          <div class="praise">
+            <svg>
+              <use href="./images/icons.svg#icon-ft1antenna"></use>
+            </svg>
+          </div>
+          <p class="caps-title">ATTENTION TO DETAILS</p>
+          <p class="description">
+            We go into all the details and processes of your business to develop
+            a customized solution.
+          </p>
+        </div>
+        <div>
+          <div class="praise">
+            <svg>
+              <use href="./images/icons.svg#icon-ft2clock"></use>
+            </svg>
+          </div>
+          <p class="caps-title">PUNCTUALITY</p>
+          <p class="description">
+            With us, you can feel safe and secure. An important principle of the
+            company: respect your time and deadlines.
+          </p>
+        </div>
+        <div>
+          <div class="praise">
+            <svg>
+              <use href="./images/icons.svg#icon-ft3diagram"></use>
+            </svg>
+          </div>
+          <p class="caps-title">PLANNING</p>
+          <p class="description">
+            You will be able to observe and participate in every phase of
+            solution development and implementation.
+          </p>
+        </div>
+        <div>
+          <div class="praise">
+            <svg>
+              <use href="./images/icons.svg#icon-ft4astronaut"></use>
+            </svg>
+          </div>
+          <p class="caps-title">MODERN TECHNOLOGIES</p>
+          <p class="description">
+            We use innovative tools to solve assigned tasks. It's time to
+            simplify work processes.
+          </p>
+        </div>
+      </div>
+
+      <section class="what-we-do ssection">
+        <h2>What we do</h2>
+        <div>
+          <div class="wwdparent">
+            <img
+              src="images/whwdoimage1.jpg"
+              alt="desk with keyboard and tablet"
+              width="370"
+            />
+            <div class="wwdchild">
+              <p class="wwdtxt">DESKTOP APPS</p>
+            </div>
+          </div>
+          <div class="wwdparent">
+            <img
+              src="images/whwdoimage2.jpg"
+              alt="screen with mobile phone"
+              width="370"
+            />
+            <div class="wwdchild">
+              <p class="wwdtxt">MOBILE APPS</p>
+            </div>
+          </div>
+          <div class="wwdparent">
+            <img
+              src="images/whwdoimage3.jpg"
+              alt="tablet with color picker"
+              width="370"
+            />
+            <div class="wwdchild">
+              <p class="wwdtxt">DESIGN SOLUTIONS</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="team ssection">
+        <h2>Our Team</h2>
+        <div class="team-cards">
+          <div>
+            <picture>
+              <source
+                srcset="
+                  images/christopherwalker.jpg    1x,
+                  images/christopherwalker-2x.jpg 2x
+                "
+                media="(min-width: 1159px)"
+              />
+              <source
+                srcset="
+                  images/christopherwalker-t.jpg    1x,
+                  images/christopherwalker-t-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  images/christopherwalker-m.jpg    1x,
+                  images/christopherwalker-m-2x.jpg 2x
+                "
+              />
+              <img
+                src="./images/christopherwalker.jpg"
+                alt="Product Designer's Photo"
+              />
+            </picture>
+            <p class="tname">Christopher Walker</p>
+            <p class="tjob">Product Designer</p>
+            <nav class="social-nets">
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </nav>
+          </div>
+          <div>
+            <picture>
+              <source
+                srcset="images/kylieevans.jpg 1x, images/kylieevans-2x.jpg 2x"
+                media="(min-width: 1159px)"
+              />
+              <source
+                srcset="
+                  images/kylieevans-t.jpg    1x,
+                  images/kylieevans-t-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  images/kylieevans-m.jpg    1x,
+                  images/kylieevans-m-2x.jpg 2x
+                "
+              />
+              <img
+                src="./images/kylieevans.jpg"
+                alt="Frontend Developer's Photo"
+              />
+            </picture>
+            <p class="tname">Kylie Evans</p>
+            <p class="tjob">Frontend Developer</p>
+            <nav class="social-nets">
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </nav>
+          </div>
+          <div>
+            <picture>
+              <source
+                srcset="images/ryanharris.jpg 1x, images/ryanharris-2x.jpg 2x"
+                media="(min-width: 1159px)"
+              />
+              <source
+                srcset="
+                  images/ryanharris-t.jpg    1x,
+                  images/ryanharris-t-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  images/ryanharris-m.jpg    1x,
+                  images/ryanharris-m-2x.jpg 2x
+                "
+              />
+              <img src="./images/ryanharris.jpg" alt="Marketing guy's Photo" />
+            </picture>
+            <p class="tname">Ryan Harris</p>
+            <p class="tjob">Marketing</p>
+            <nav class="social-nets">
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </nav>
+          </div>
+          <div>
+            <picture>
+              <source
+                srcset="images/tylermoore.jpg 1x, images/tylermoore-2x.jpg 2x"
+                media="(min-width: 1159px)"
+              />
+              <source
+                srcset="
+                  images/tylermoore-t.jpg    1x,
+                  images/tylermoore-t-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  images/tylermoore-m.jpg    1x,
+                  images/tylermoore-m-2x.jpg 2x
+                "
+              />
+              <img src="./images/tylermoore.jpg" alt="UI Designer's Photo" />
+            </picture>
+            <p class="tname">Tyler Moore</p>
+            <p class="tjob">UI Designer</p>
+            <nav class="social-nets">
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+              <a class="snlinks" href="">
+                <svg width="22px" height="22px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <section class="regular ssection">
+        <h2>Regular Customers</h2>
+        <div>
+          <div class="frame">
+            <a href="">
+              <svg width="41">
+                <use href="./images/icons.svg#icon-rgclient1"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="frame">
+            <a href="">
+              <svg width="40">
+                <use href="./images/icons.svg#icon-rgclient2"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="frame">
+            <a href="">
+              <svg width="44">
+                <use href="./images/icons.svg#icon-rgclient3"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="frame">
+            <a href="">
+              <svg width="85">
+                <use href="./images/icons.svg#icon-rgclient4"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="frame">
+            <a href="">
+              <svg width="63">
+                <use href="./images/icons.svg#icon-rgclient5"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="frame">
+            <a href="">
+              <svg width="94">
+                <use href="./images/icons.svg#icon-rgclient6"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="ssection">
+      <div>
+        <div class="left-footer">
+          <a class="logo-footer" href=""> <span>Web</span>Studio</a>
+          <ul>
+            <li>
+              <address>695 Park Ave, NY 10065, USA</address>
+            </li>
+            <li>
+              <a class="contcts" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contcts" href="tel:+1212-772-4150"> +1 212-772-4150</a>
+            </li>
+          </ul>
+        </div>
+        <div class="middle-footer">
+          <p>FIND US ON</p>
+          <nav class="snfooter">
+            <a class="snf-links" href="">
+              <svg width="22px" height="22px">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+            <a class="snf-links" href="">
+              <svg width="22px" height="22px">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+            <a class="snf-links" href="">
+              <svg width="22px" height="22px">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+            <a class="snf-links" href="">
+              <svg width="22px" height="22px">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </nav>
+        </div>
+        <div class="form-footer">
+          <span>SUBSCRIBE TO THE NEWSLETTER</span>
+          <form name="subscribe_form">
+            <input
+              type="email"
+              name="email"
+              class="email-input"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="subscribe-btn">
+              Subscribe
+              <svg width="24px" height="24px">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!-- desktop modal window -->
+    <section class="modal hidden">
+      <div class="divbtn-close">
+        <button class="btn-close">X</button>
+      </div>
+      <div class="divinputs">
+        <span>Leave your information and we'll call you back</span>
+        <div class="divform">
+          <label for="name">Name</label>
+          <div class="divname">
+            <input type="text" name="name" class="forminput" />
+            <svg width="12px" height="12px">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+          <label for="tel">Telephone</label>
+          <div class="divtel">
+            <input type="tel" name="tel" class="forminput" />
+            <svg width="15px" height="15px">
+              <use href="./images/icons.svg#icon-phone2"></use>
+            </svg>
+          </div>
+          <label for="email">Email</label>
+          <div class="divemail">
+            <input type="email" name="email" class="forminput" />
+            <svg width="13px" height="13px">
+              <use href="./images/icons.svg#icon-envelope2"></use>
+            </svg>
+          </div>
+
+          <label for="comments">Comments</label>
+          <textarea
+            name="comments"
+            id="comments"
+            placeholder="Enter the text"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <label class="agree-tandc"
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I agree with the letter and accept
+          the&nbsp;
+          <a class="tandc" href="">Terms and Conditions</a>
+          <input type="checkbox" name="agree-tandc" />
+          <span class="checkmark"></span>
+        </label>
+        <input type="submit" value="Send" class="btn-send" />
+      </div>
+    </section>
+
+    <div class="overlay hidden"></div>
+
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
